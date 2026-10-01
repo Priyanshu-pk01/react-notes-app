@@ -10,7 +10,7 @@ const App = () => {
     e.preventDefault()
     console.log("Form Submitted")
     if(title.trim().length<3){ 
-      alert("Enetr title ")
+      alert("Enter Title ")
       return
     }
     if (details.trim().length<5){
